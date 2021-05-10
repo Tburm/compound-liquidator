@@ -2,7 +2,7 @@
 
 # How to Use
 
-- Go to: https://chiragkhatri.me/compound-liquidator/
+- [Link](https://tburm.github.io/compound-liquidator/) to live version on Github Pages
 - You will see a list of accounts. The ones that have a state "unhealthy" are usually liquidable.
 - Click inspect and you should see a more detailed screen.
 - Note liquidating is **disabled** if account liquidity > 1 it will say so at the top of the screen
@@ -15,6 +15,9 @@
 - A transaction will pop up, for this transaction to succeed you will need that much underlying in the same account as the account you're sending the transaction from.
 - Once the transaction goes through if it's success you will get the amount of cToken sent to your address, you can check your amounts using the compound.finance site.
 
-# stretch goals
+# future improvements
 
-- Automate this for all the gains.
+- Automate the liquidation of accounts
+- Support different protocols:
+  - [CREAM Finance](https://app.cream.finance)
+  - [Venus](https://venus.io/)
